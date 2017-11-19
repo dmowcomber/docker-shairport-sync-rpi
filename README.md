@@ -9,7 +9,6 @@ docker run -d \
     --net host \
     --device /dev/snd \
     -e AIRPLAY_NAME=Docker \
-    -v /path/to/custom/shairport-sync.conf:/etc/shairport-sync.conf
     orbsmiv/shairport-sync-rpi
 ```
 
