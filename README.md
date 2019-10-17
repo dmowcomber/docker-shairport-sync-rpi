@@ -12,6 +12,11 @@ docker run -d \
     orbsmiv/shairport-sync-rpi
 ```
 
+Using docker-compse:
+```
+docker-compose up -d
+```
+
 ### Parameters
 
 * `--net host` must be run in host mode
