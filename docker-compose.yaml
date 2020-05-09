@@ -1,0 +1,11 @@
+version: '2'
+services:
+  sprinkler:
+    image:  orbsmiv/shairport-sync-rpi
+    network_mode: "host"
+    restart: always
+    devices:
+        - "/dev/snd:/dev/snd"
+    environment:
+        AIRPLAY_NAME: airplay-name
+
